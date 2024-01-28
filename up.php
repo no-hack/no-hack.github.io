@@ -13,4 +13,4 @@ if($_POST['upload']) {
     echo "FAIL!";
     }
 }
-echo "</font></h1>";
+echo "</font></h12>";
