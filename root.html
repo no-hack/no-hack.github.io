@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>./root</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💎</text></svg>">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pirata+One&family=Sedgwick+Ave+Display&family=Gloria+Hallelujah&display=swap');
+        body {
+		    background-image: url("");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-color: #f1f1f1;
+		    color: #000000;
+            text-shadow: 0px 0px 3px #000000;
+            font-weight: 400;
+            font-style: normal;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 100vh;
+            margin: 0;
+        }
+        h1 {
+            font-size: 6em;
+            margin-bottom: 0px;
+            font-family: "Pirata One", system-ui;
+        }
+        p {
+            font-size: 1.5em;
+            margin-top: 0;
+            margin-bottom: 0px;
+            font-family: "Sedgwick Ave Display", cursive;
+			animation: fadeIn 5s;
+        }
+		@keyframes fadeIn { 
+		    0% { opacity:0; } 100% { opacity: 1; } 
+	    }
+        .twitter-container {
+            position: fixed;
+            top: 5px;
+            left: 5px;
+            z-index: 999;
+        }
+		a:link {
+            text-decoration:none;
+			font-family:Gloria Hallelujah;
+			font-size: 0.8em;
+			text-shadow: 0px 0px 3px red;
+        }
+		.blink {
+            animation: blinker 1s linear infinite;
+        }
+        @keyframes blinker {  
+            50% { opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>pwned by rooterror</h1>
+        <p>Tijuana, Baja California, México</p>
+        <p>since 2012</p>
+		<p><a class="blink" href="http://www.zone-h.org/archive/defacer=rooterror" target="_blank" style="color: red">http://www.zone-h.org/archive/defacer=rooterror</a></p>
+    </div>
+    <div class="twitter-container">
+        <a class="twitter-follow-button" href="https://twitter.com/rooterror">Follow @rooterror</a>
+        <script>
+            !function(d,s,id){
+                var js,fjs=d.getElementsByTagName(s)[0];
+                if(!d.getElementById(id)){
+                    js=d.createElement(s);
+                    js.id=id;
+                    js.src="//platform.twitter.com/widgets.js";
+                    fjs.parentNode.insertBefore(js,fjs);
+                }
+            }(document,"script","twitter-wjs");
+        </script>
+    </div>
+</body>
+</html>
